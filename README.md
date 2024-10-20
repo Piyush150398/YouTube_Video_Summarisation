@@ -50,7 +50,9 @@ This project provides a YouTube video summarization tool that leverages the Chat
 	Streamlit for the user interface.
 ### Example Usage 🎯
 Step-1) Enter a valid YouTube URL (e.g., https://www.youtube.com/watch?v=abc123).
+
 Step-2) Press enter key and click on submit button.
+
 Step-3) Wait for few seconds and you will have summary.
 
 ### Future Improvements 🚀
