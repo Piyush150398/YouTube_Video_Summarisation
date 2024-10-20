@@ -9,21 +9,21 @@ This project provides a YouTube video summarization tool that leverages the Chat
 
 ### Project Structure 📁
 
-YOUTUBE_VIDEO_SUMMARY/
-│
-├── models/
-│   └── youtube_transcript_model.py      # Handles transcript operations.
-├── prompts/
-│   └── prompt_for_summarization.py      # Stores prompts for ChatGPT-4o-mini API.
-├── logs/                                # Logs for monitoring errors and usage.
-├── .env                                 # Environment variables (API keys, etc.).
-├── Invoke_OpenAI.py                     # Manages API interactions with GPT-4o-mini.
-├── logging_info.py                      # Configures logging settings.
-├── regular_expression_to_get_id.py      # Extracts YouTube video ID from URLs.
-├── run.py                               # Main entry point for the project.
-├── streamlit_app.py                     # Streamlit web app for video summarization.
-├── youtube_transcript_api_call.py       # API call logic for fetching transcripts.
-└── README.md                            # Project documentation (this file).
+	YOUTUBE_VIDEO_SUMMARY/
+	│
+	├── models/
+	│   └── youtube_transcript_model.py      # Handles transcript operations.
+	├── prompts/
+	│   └── prompt_for_summarization.py      # Stores prompts for ChatGPT-4o-mini API.
+	├── logs/                                # Logs for monitoring errors and usage.
+	├── .env                                 # Environment variables (API keys, etc.).
+	├── Invoke_OpenAI.py                     # Manages API interactions with GPT-4o-mini.
+	├── logging_info.py                      # Configures logging settings.
+	├── regular_expression_to_get_id.py      # Extracts YouTube video ID from URLs.
+	├── run.py                               # Main entry point for the project.
+	├── streamlit_app.py                     # Streamlit web app for video summarization.
+	├── youtube_transcript_api_call.py       # API call logic for fetching transcripts.
+	└── README.md                            # Project documentation (this file).
 
 
 ### Prerequisites 🛠️
