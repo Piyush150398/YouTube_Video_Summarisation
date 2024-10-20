@@ -27,8 +27,8 @@ This project provides a YouTube video summarization tool that leverages the Chat
 
 
 ### Prerequisites 🛠️
-Ensure you have the following installed:
-    Python 3.8+
+	Ensure you have the following installed:
+	Python 3.8+
 	Streamlit
 	OpenAI Python API (openai package)
 	youtube-transcript-api (youtube_transcript_api package)
